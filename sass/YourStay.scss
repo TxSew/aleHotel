@@ -1,0 +1,37 @@
+.yourstay {
+     width: 100%;
+      background-image: url('https://cdn.pixabay.com/photo/2023/04/09/14/43/sky-7911655_1280.jpg');
+       background-size: cover;
+        background-repeat:no-repeat ;
+         display: flex;
+          align-items: center;
+        &__content {
+           padding: 187px 60px;
+             width: 100%;
+           
+             text-align: center;
+              & > h1 {
+                 font-size: 40px;
+                 font-weight: 700;
+                  color:#fff;
+                   &> span {
+                     color:rgb(233, 180, 83)
+                   }
+              }
+               &> p {
+                 margin-top: 25px;
+                 color: #fff;
+                  line-height: 1.4;
+                   font-size: 18px;
+               }
+                &> a {
+                     text-decoration: none;
+                      margin-top: 19px;
+                      display: inline-block;
+                       padding: 10px 20px;
+                        background-color: black;
+                         color: #fff;
+                          border-radius: 5px;
+                }
+         }
+}

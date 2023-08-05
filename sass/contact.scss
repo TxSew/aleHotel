@@ -1,0 +1,44 @@
+.contact {
+  &_wrapper {
+    padding: 30px 30px 60px;
+  }
+  &_heading {
+    font-size: 40px;
+    font-weight: bold;
+    & > span {
+      color: rgb(173, 138, 72);
+    }
+  }
+  &_desc {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .form_groups {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    .form_control {
+      display: flex;
+      flex-direction: column;
+       gap:7px 0;
+      & > input {
+        padding: 7px 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+       &> textarea {
+         
+        border: 1px solid #ccc;
+        border-radius: 4px;
+       }
+    }
+    & > input[type="submit"] {
+      padding: 10px 3px;
+      background-color: #333;
+       color:#fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+}

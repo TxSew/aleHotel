@@ -1,0 +1,25 @@
+.location {
+    display: grid;
+    grid-template-columns: auto auto auto;
+     &_item:nth-child(2) {
+         background-color: orange;
+     }
+     &_item {
+
+         text-align: center;
+         padding: 50px 50px 70px;
+         &> img {
+             margin: 0 auto;
+             width: 60px;
+             height: 60px;
+         }
+          &> h3 {
+             margin-top: 10px;
+              font-size: 30px;
+               font-weight: 700;
+          }
+           &> p {
+             margin-top: 10px;
+           }
+     }
+}
