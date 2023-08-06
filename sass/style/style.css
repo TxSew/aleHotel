@@ -60,9 +60,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding: 187px 60px; }
   .yourstay__content {
-    padding: 187px 60px;
     width: 100%;
     text-align: center; }
     .yourstay__content > h1 {
@@ -87,10 +87,11 @@ body {
 
 .history {
   display: flex;
-  width: 100%; }
+  align-items: center; }
   .history__image {
+    flex: 0 0 auto;
     width: 50%;
-    height: 577px; }
+    height: 500px; }
     .history__image > img {
       width: 100%;
       height: 100%; }
@@ -99,7 +100,10 @@ body {
     width: 50%;
     display: flex;
     align-items: center;
-    height: 100%; }
+    height: 500px;
+    flex: 1; }
+    .history__content-title {
+      padding: 0 50px; }
 
 .location {
   display: grid;
@@ -265,9 +269,6 @@ body {
 
   .contact_desc {
     font-size: 13px; }
-
-  .yourstay__content {
-    padding: 103px 60px; }
 
   .header__logo {
     width: 159px;
